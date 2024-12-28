@@ -11,3 +11,16 @@ main:
 add2:
   add r2, r0, r1
   bx lr  /* return to caller (returning to main)*/
+
+
+/* 
+bl (Branch with Link):
+
+    Springt zu einer Funktion und 
+    speichert die Rücksprungadresse im lr-Register (lr=main).
+
+bx lr:
+
+    Springt zurück zur Adresse, 
+    die im lr-Register gespeichert ist (lr -> main).
+*/
