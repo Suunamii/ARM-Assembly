@@ -7,6 +7,7 @@ main:
   mov r1, #3
   bl add2
   mov r3, #4
+  b stop /* to stop a loop */
 
 add2:
   add r2, r0, r1
@@ -24,3 +25,4 @@ bx lr:
     Springt zurück zur Adresse, 
     die im lr-Register gespeichert ist (lr -> main).
 */
+
