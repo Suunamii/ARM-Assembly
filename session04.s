@@ -10,7 +10,7 @@ str (Store Register):
 -------------------
 mov r1, addr_of_myvar1: Ist das korrekt?
 
-Nein, in diesem Fall ist es nicht korrekt, 
+ist es nicht korrekt, 
 weil addr_of_myvar1 ein Label ist, 
 das eine Adresse darstellt, die zur Laufzeit im Speicher liegt. 
 ARM-Assembler versteht addr_of_myvar1 als Speicherinhalt, 
